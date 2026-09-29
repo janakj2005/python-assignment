@@ -185,12 +185,13 @@ print("Size:", marks.size)
 print("Data type:", marks.dtype)
 ```
 ### Output:
+```
 Marks: [78 65 89 56 92]
 Number of dimensions: 1
 Shape: (5,)
 Size: 5
 Data type: int64
-
+```
 ### Question 2 – Student Marks Access
 ### The marks of five students are stored in a NumPy array as [72, 85, 64, 90, 76]. Write a program to access and display specific student marks using NumPy indexing and slicing.
 ### Program
@@ -204,15 +205,15 @@ print("Last student:", marks[4])
 print("First three students:", marks[0:3])
 print("Students 2 to 4:", marks[1:4])
 ```
-###Output:
-
+### Output:
+```
 Marks: [72 85 64 90 76]
 First student: 72
 Third student: 64
 Last student: 76
 First three students: [72 85 64]
 Students 2 to 4: [85 64 90]
-
+```
 ### Question 3 – Subject-wise Marks
 ### The marks obtained by five students in three subjects are given below. Create a NumPy array to represent the data and reshape it into an appropriate matrix format.
 [78, 85, 90, 65, 72, 80, 88, 91, 84, 56, 62, 70, 95, 89, 92]
@@ -225,13 +226,14 @@ print("Marks:")
 print(matrix)
 ```
 ### Output:
+```
 Marks:
 [[78 85 90]
  [65 72 80]
  [88 91 84]
  [56 62 70]
  [95 89 92]]
-
+```
 ### Question 4 – Internal and External Marks
 ### The internal and external examination marks of five students are stored in two NumPy arrays. Write a program to calculate the final marks of each student using NumPy array operations.
 ### Program
@@ -245,10 +247,11 @@ print("External marks:", external)
 print("Final marks:", final_marks)
 ```
 ### Output:
+```
 Internal marks: [20 18 22 19 21]
 External marks: [70 65 68 72 75]
 Final marks: [90 83 90 91 96]
-
+```
 ### Question 5 – Pass Percentage Analysis
 ### The marks obtained by five students are [45, 78, 56, 32, 91]. Using NumPy Boolean masking, identify the students who have secured 50 marks or above.
 ### Program
@@ -260,9 +263,10 @@ print("Marks:", marks)
 print("Students who scored 50 or above:", passed)
 ```
 ### Output:
+```
 Marks: [45 78 56 32 91]
 Students who scored 50 or above: [78 56 91]
-
+```
 ### Question 6 – Average Marks
 ### The marks of five students in three subjects are represented using a NumPy matrix. Write a program to calculate the average marks of each student.
 ### Program
@@ -281,6 +285,7 @@ print(marks)
 print("Average marks of each student:", average)
 ```
 ### Output:
+```
 Marks:
 [[78 85 90]
  [65 72 80]
@@ -288,7 +293,7 @@ Marks:
  [56 62 70]
  [95 89 92]]
 Average marks of each student: [84.33333333 72.33333333 87.66666667 62.66666667 92.]
-
+```
 ### Question 7 – Class Performance Statistics
 ### The marks obtained by five students are [67, 82, 91, 74, 58]. Using NumPy statistical functions, determine the total, average, highest, lowest, and standard deviation of the marks.
 ### Program
@@ -308,13 +313,14 @@ print("Lowest:", lowest)
 print("Standard deviation:", standard_deviation)
 ```
 ### Output:
+```
 Marks: [67 82 91 74 58]
 Total: 372
 Average: 74.4
 Highest: 91
 Lowest: 58
 Standard deviation: 11.46472851837321
-
+```
 ### Question 8 – Subject-wise Performance
 ### The marks of five students in three subjects are stored in a NumPy matrix. Write a program to calculate the total marks obtained in each subject using an appropriate axis operation.
 ### Program
@@ -333,6 +339,7 @@ print(marks)
 print("Total marks in each subject:", subject_total)
 ```
 ### Output:
+```
 Marks:
 [[78 85 90]
  [65 72 80]
@@ -340,7 +347,7 @@ Marks:
  [56 62 70]
  [95 89 92]]
 Total marks in each subject: [382 399 416]
-
+```
 ### Question 9 – Student-wise Performance
 ### The marks of five students in three subjects are stored in a NumPy matrix. Write a program to calculate the total marks obtained by each student using an appropriate axis operation.
 ### Program
@@ -359,6 +366,7 @@ print(marks)
 print("Total marks of each student:", student_total)
 ```
 ### Output:
+```
 Marks:
 [[78 85 90]
  [65 72 80]
@@ -366,7 +374,7 @@ Marks:
  [56 62 70]
  [95 89 92]]
 Total marks of each student: [253 217 263 188 276]
-
+```
 ### Question 10 – Student Ranking
 ### The total marks obtained by five students are [245, 278, 219, 290, 256]. Use NumPy sorting and indexing operations to arrange the marks in order and determine the ranking of the students.
 ### Program
@@ -381,6 +389,7 @@ for i in order:
 print("Student", i + 1, "-", marks[i])
 ```
 ### Output:
+```
 Marks: [245 278 219 290 256]
 Marks in descending order: [290 278 256 245 219]
 Ranking:
@@ -389,7 +398,7 @@ Student 2 - 278
 Student 5 - 256
 Student 1 - 245
 Student 3 - 219
-
+```
 ### Question 11 – Duplicate Marks Analysis
 ### The marks obtained by five students are [85, 92, 85, 76, 92]. Use NumPy functions to identify the unique marks obtained by the students.
 ### Program
@@ -401,9 +410,10 @@ print("Marks:", marks)
 print("Unique marks:", unique_marks)
 ```
 ### Output:
+```
 Marks: [85 92 85 76 92]
 Unique marks: [76 85 92]
-
+```
 ### Question 12 – Missing Marks
 ### The marks of five students are represented as [78, 85, np.nan, 92, 67], where np.nan represents a missing mark. Write a NumPy program to calculate the average marks without considering the missing value.
 ### Program
@@ -415,9 +425,10 @@ print("Marks:", marks)
 print("Average without missing mark:", average)
 ```
 ### Output:
+```
 Marks: [78. 85. nan 92. 67.]
 Average without missing mark: 80.5
-
+```
 ### Question 13 – Grade Classification
 ### The marks obtained by five students are [95, 82, 74, 61, 45]. Using NumPy conditional operations, classify the students into appropriate grade categories based on their marks.
 ### Program
@@ -437,9 +448,10 @@ print("Marks:", marks)
 print("Grades:", result)
 ```
 ### Output:
+```
 Marks: [95 82 74 61 45]
 Grades: ['A' 'B' 'C' 'D' 'F']
-
+```
 ### Question 14 – Random Marks Generation
 ### Generate marks for five students using NumPy's random number generation functionality. Perform basic statistical analysis on the generated marks.
 ### Program
@@ -455,13 +467,14 @@ print("Standard deviation:", np.std(marks))
 ```
 
 ### Output:
+```
 Generated marks: [40 16 73 99 57]
 Total: 285
 Average: 57.0
 Highest: 99
 Lowest: 16
 Standard deviation: 28.24889378365107
-
+```
 ### Question 15 – Student Performance Analysis
 ### The marks of five students in three subjects are stored in a NumPy array. Develop a program to perform a complete student performance analysis by calculating the total marks, average marks, highest marks, lowest marks, and identifying students who perform above the class average.
 ### Program
@@ -495,6 +508,7 @@ for i in range(len(average)):
 ```
 
 ### Output:
+```
 Marks:
 [[78 85 90]
  [65 72 80]
@@ -511,7 +525,7 @@ Student numbers above class average:
 Student 1
 Student 3
 Student 5
-
+```
 
 
 
