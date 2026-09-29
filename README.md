@@ -1,4 +1,4 @@
-# python-assignment
+# PYTHON ASSIGNMENT
 
 ## Python Function Assignments: -
 
